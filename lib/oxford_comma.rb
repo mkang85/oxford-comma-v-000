@@ -10,6 +10,6 @@ def oxford_comma(array)
     newArr << array[x]
     x += 1
   end
-  newArr.join(", ") + "and " + array.length-1
+  newArr.join(", ") + "and " + array[array.length-1]
   end
 end
