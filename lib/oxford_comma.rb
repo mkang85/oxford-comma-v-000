@@ -4,8 +4,10 @@ def oxford_comma(array)
   elsif array.length == 2
     array[0] + " and " + array[1]
   else
-    almost = array.shift
-    stringed = almost.join(", ")
-    return stringed
+    x = 0
+    newArr = []
+  while x < array.length-1
+    newArr << array[x]
+  end
   end
 end
