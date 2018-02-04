@@ -9,7 +9,7 @@ def oxford_comma(array)
   while x < array.length-1
     newArr << array[x]
     x += 1
-    newArr
   end
+  newArr
   end
 end
